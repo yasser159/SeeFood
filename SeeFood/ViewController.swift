@@ -24,11 +24,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         if let userPickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             imageView.image = userPickedImage
             
-            guard let ciimage = CIImage(image: userPickedImage) else {
+            guard let ciImage = CIImage(image: userPickedImage) else {
                 fatalError("could not convert to CIImage")
             }
             
-            detect(image: ciimage)
+            detect(image: ciImage)
         }
         
         imagePicker.dismiss(animated: true, completion: nil)
