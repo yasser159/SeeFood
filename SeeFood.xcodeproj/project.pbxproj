@@ -13,7 +13,7 @@
 		33E067F7274D774C00EC2334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E067F5274D774C00EC2334 /* Main.storyboard */; };
 		33E067F9274D774E00EC2334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E067F8274D774E00EC2334 /* Assets.xcassets */; };
 		33E067FC274D774E00EC2334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E067FA274D774E00EC2334 /* LaunchScreen.storyboard */; };
-		33E06806274D7D5100EC2334 /* Inceptionv3.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 33E06805274D7D5100EC2334 /* Inceptionv3.mlpackage */; };
+		33E06808274D8C5700EC2334 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 33E06807274D8C5700EC2334 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		33E067F8274D774E00EC2334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33E067FB274D774E00EC2334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33E067FD274D774E00EC2334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33E06805274D7D5100EC2334 /* Inceptionv3.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Inceptionv3.mlpackage; sourceTree = "<group>"; };
+		33E06807274D8C5700EC2334 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				33E067F1274D774C00EC2334 /* SceneDelegate.swift */,
 				33E067F3274D774C00EC2334 /* ViewController.swift */,
 				33E067F5274D774C00EC2334 /* Main.storyboard */,
-				33E06805274D7D5100EC2334 /* Inceptionv3.mlpackage */,
+				33E06807274D8C5700EC2334 /* Inceptionv3.mlmodel */,
 				33E067F8274D774E00EC2334 /* Assets.xcassets */,
 				33E067FA274D774E00EC2334 /* LaunchScreen.storyboard */,
 				33E067FD274D774E00EC2334 /* Info.plist */,
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33E06806274D7D5100EC2334 /* Inceptionv3.mlpackage in Sources */,
+				33E06808274D8C5700EC2334 /* Inceptionv3.mlmodel in Sources */,
 				33E067F4274D774C00EC2334 /* ViewController.swift in Sources */,
 				33E067F0274D774C00EC2334 /* AppDelegate.swift in Sources */,
 				33E067F2274D774C00EC2334 /* SceneDelegate.swift in Sources */,
