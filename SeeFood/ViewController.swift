@@ -15,7 +15,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         imagePicker.delegate = self
         imagePicker.sourceType = .camera 
         //imagePicker.sourceType = .photoLibrary
-
+// remote
         imagePicker.allowsEditing = false
     }
     
